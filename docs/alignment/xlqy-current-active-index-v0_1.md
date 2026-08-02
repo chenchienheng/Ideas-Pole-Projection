@@ -24,11 +24,8 @@ XLQY_Current_Active:
   circulation_protocol:
     - "docs/circulation/qha-mutual-circulation-schedule-v0_1.md"
     - "docs/protocols/lor-mutual-read-and-promote-protocol-v0_1.md"
-    - "docs/protocols/cross-ecosystem-carrier-federation-contract-r0_1-candidate.md"
   identity:
     - "docs/identity/xuanling-qha-self-addressing-rule-v0_1.md"
-  lor_lineage:
-    - "docs/lor/life-system-state-transition-pulse-carrier-mapping-r1_09-candidate.md"
   returns:
     - "docs/returns/qinyi-lor-signal-return-template.md"
     - "docs/returns/missing-return-hook-request-template-v0_1.md"
@@ -41,28 +38,6 @@ XLQY_Current_Active:
     - "docs/role-maps/qha-nutrient-absorption-role-map-v0_1.md"
   context:
     - "docs/context/qinyi-mainchat-lor-return-routing-v0_1.md"
-```
-
-## R1-09 Bounded Architecture Surface
-
-The following files are active reading candidates for the R1-08 / R1-09 life-chain refinement. They do not replace Drive Current, DCP validation, or platform-native evidence.
-
-```yaml
-R1_09_Bounded_Surface:
-  transition_lineage:
-    path: "docs/lor/life-system-state-transition-pulse-carrier-mapping-r1_09-candidate.md"
-    owner_role: LOR
-    purpose: "preserve identity, lineage, carrier binding, return, reconciliation, and rebuild across state transitions"
-  carrier_federation:
-    path: "docs/protocols/cross-ecosystem-carrier-federation-contract-r0_1-candidate.md"
-    owner_role: "shared generic coordination schema"
-    purpose: "provide one carrier adapter envelope for Drive, GitHub, task managers, communication tools, and future platforms"
-  claim_ceiling:
-    - "Architecture Candidate"
-    - "No Runtime"
-    - "No Current Promotion"
-    - "No Platform Enrollment"
-    - "No External Writeback"
 ```
 
 ## Current Repository Boundary
@@ -109,9 +84,6 @@ Older Qinyi/Hazumi/Aki role labels, legacy multi-window schedule notes, and long
 - Audit Note != Closeout
 - Dispatch != Approval
 - GitHub Commit != Current Operational State
-- Carrier Capability Candidate != Active Carrier Binding
-- Pulse Executed != State Transition Completed
-- Platform Native Complete != Reconciliation
 
 ## Final Rule
 
