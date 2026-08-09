@@ -88,3 +88,33 @@ Older Qinyi/Hazumi/Aki role labels, legacy multi-window schedule notes, and long
 ## Final Rule
 
 QHA should read this index before expanding XLQY details. Role windows should be manually expanded only when QHA or Vitas assigns them. XL10 versions selected generic coordination methods; it does not replace the authorized live working carrier.
+
+## R1-05 Legacy Reader Shield
+
+Shield state: `READER_SHIELD_NATIVE_APPLIED_PR_BRANCH`  
+Scope: `cleanup/r1-current-role-index-20260714` only. The default branch is unchanged. This section grants no merge, Current, Canon, runtime, release, deletion, identity, or authority promotion.
+
+| Reader question | Branch-scoped answer |
+|---|---|
+| 1. Which generation is this? | `STATUS.md` and `current_files.txt` belong to the shared pre-role-differentiation snapshot generation. This repository's target role is **Coordination / Return Projection candidate**. |
+| 2. Is it Current now? | **No.** Legacy bodies are historical evidence. This role index is still a candidate on an unmerged cleanup branch. |
+| 3. What was its historical function? | A shared architecture, coordination, registry, runtime-spine, and manifest baseline before repository-native role differentiation. |
+| 4. Which meaning remains valid? | Historical provenance, the material names recorded at that revision, and bounded relation evidence remain readable. |
+| 5. Which assumptions are no longer valid? | Completeness, one shared Current role, live runtime/control authority, same identity, Git ancestry, Canon, and deletion readiness. |
+| 6. Where is the successor? | Reader-routing successor: this role index plus the public-boundary file for branch reading; no identity successor is asserted. This is not an identity-successor claim. |
+| 7. What should a reader read first? | this role index, then `docs/alignment/xl10-tri-carrier-public-boundary-v0_1.md`. For exact inventory, inspect the selected branch/commit tree rather than `current_files.txt`. |
+| 8. What must it not be treated as? | A current control plane, complete current manifest, runtime truth, authority registry, Canon, or permission to merge, retire, or delete. |
+
+### Snapshot lineage ceiling
+
+The initial 179-file generation is an exact full-content snapshot of the bounded XL00 source revision. `FULL_CONTENT_SNAPSHOT_OF` does not mean same identity or Git ancestry.
+
+### Stale manifest disposition
+
+Bounded comparison found 49 repository-native additions and `current_files.txt` coverage of `0/49`. Proposed native disposition on this branch: `HISTORICAL_MANIFEST / READER_ROUTING_SUPERSEDED_CANDIDATE`; regenerate, replace, or retire remains an OCF/W7 owner decision.
+
+The legacy file is retained unchanged in this branch. Its historical content is not retired, and physical deletion remains prohibited.
+
+### Return and re-entry boundary
+
+A new reader can recover the repository role, claim ceiling, first-read pointer, and write boundary from this index plus the shield at `STATUS.md`. Re-entry remains `PARTIAL` until the role PR is independently reviewed and merged or otherwise dispositioned by the native owner; `current_files.txt` direct-path shielding and complete native-addition disposition remain open.
