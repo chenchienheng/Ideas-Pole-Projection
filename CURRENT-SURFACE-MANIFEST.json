@@ -1,0 +1,28 @@
+{
+  "repository_role": "PUBLIC_COORDINATION_RETURN_SURFACE",
+  "runtime": false,
+  "native_source_root": false,
+  "reader_priority": ["README.md", "CURRENT-SURFACE-MANIFEST.json"],
+  "current_coordination_surfaces": {
+    "human": ["README.md"],
+    "machine": ["CURRENT-SURFACE-MANIFEST.json"]
+  },
+  "legacy_root_families": [
+    "00_meta",
+    "00_mother-law",
+    "01_native-board",
+    "01_runtime-spine",
+    "02_runtime-ops",
+    "02_translation-layer",
+    "03_board-orchestration",
+    "03_field-governance",
+    "04_adapter-layer",
+    "04_interface-layer",
+    "05_XLEN_Reserve_Unenabled",
+    "05_topology"
+  ],
+  "legacy_interpretation": "HISTORICAL_OR_COMPATIBILITY_UNLESS_EXPLICITLY_RE-ADMITTED",
+  "return_semantics": "RETURN_EXISTENCE_DOES_NOT_IMPLY_RECONCILIATION",
+  "release_rule": "MINIMUM_PUBLIC_COORDINATION_MATERIAL_ONLY",
+  "claim_ceiling": "Public coordination and return projection; no native body, central authority, or implicit promotion"
+}
