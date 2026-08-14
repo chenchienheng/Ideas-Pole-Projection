@@ -5,74 +5,40 @@
 **Operational status / 運作狀態：** Non-production  
 **Authority model / 權限模型：** No central authority; no implicit promotion
 
-## Overview / 概述
+## Current reader entry / 現行讀取入口
 
-XuanLing-10 provides a bounded coordination surface for cross-domain handoff, return, receipt, review, and re-entry information. Its purpose is to preserve continuity between independently governed domains without duplicating their native bodies or creating a secondary source of truth.
+Start with `CURRENT-SURFACE-MANIFEST.json`. It identifies the current coordination surface and classifies retained root-layer families as Historical／Compatibility unless explicitly re-admitted.
 
-XuanLing-10 提供有限的跨域協調表面，用於承接 handoff、return、receipt、review 與 re-entry 資訊。其目的在維持不同治理權域之間的連續性，而不是複製各自 Native Body 或建立第二個 Truth Source。
+請先讀 `CURRENT-SURFACE-MANIFEST.json`。它負責指出本倉現行協調表面；根目錄保留的早期 layer/runtime/orchestration 族群，在沒有具名 re-admission 前只作 Historical／Compatibility material，不因位置、檔名或修改時間恢復 Current。
 
-## Information model / 資訊模型
+## Purpose / 目的
 
-A coordination record should identify, at minimum:
+This repository carries the minimum release-appropriate material required for cross-domain handoff, return, receipt, review, reconciliation status, and re-entry. It preserves continuity without copying native bodies or creating a secondary source of truth.
 
-協調紀錄至少應能辨識：
-
-- source and source revision / 來源與來源版本
-- affected identity or dependency / 受影響的身分或依存關係
-- bounded state and authority change / 有限的狀態與權限變更
-- evidence or receipt reference / 證據或回執指標
-- intended receiver / 預定接收者
-- reconciliation status / 調和狀態
-- re-entry or successor condition / 重入或承接條件
-
-The repository records coordination state only. It does not establish domain authority, runtime execution, or architectural promotion by itself.
-
-本倉只記錄協調狀態；倉內紀錄本身不構成 Domain Authority、Runtime Execution 或 Architecture Promotion。
+本倉只承載跨域 Handoff、Return、Receipt、Review、Reconciliation Status 與 Re-entry 所需的最小公開材料；它維持連續性，但不複製 Native Body，也不建立第二個 Truth Source。
 
 ## Representation profiles / 表徵層級
 
-Human-facing material uses Traditional Chinese for direct review. External-facing material uses English for interoperability and publication. Machine-facing fields use stable canonical identifiers and typed values.
+- **Human / 人類層：** 繁體中文優先，說明狀態、影響、證據與下一步。
+- **External / 外部層：** 英文用於經核准的互通與公開技術表達。
+- **Machine / 機器層：** Stable IDs、typed state、receiver、evidence pointer、reconciliation status、re-entry condition。
 
-人類閱讀內容以繁體中文供直接審閱；外部交換內容以英文支援互通與發布；機器欄位則維持穩定的 canonical identifiers 與 typed values。
+三者描述同一協調事件，但不是逐句翻譯；State、Authority、Claim Ceiling、Receiver 與 Release Classification 必須一致。
 
-These representations must remain semantically aligned. Public release is separately controlled by audience, rights, sensitivity, evidence, and release authority.
+## Coordination semantics / 協調語義
 
-三種表徵必須維持語義一致；公開發布另受 Audience、Rights、Sensitivity、Evidence 與 Release Authority 控制。
+A return is not reconciliation. A receipt proves only its declared transport or observation scope. Repository presence does not establish Current, Runtime, Authority, or Promotion.
 
-## Public scope / 公開範圍
+Return 不等於 Reconciliation；Receipt 只證明其聲明範圍內的傳遞或觀測。本倉出現某項內容，也不自動建立 Current、Runtime、Authority 或 Promotion。
 
-Appropriate public contents include:
+## Public boundary / 公開邊界
 
-適合公開的內容包括：
+Public material may include sanitized coordination patterns, interface conventions, bounded examples, approved receipts, and release-appropriate historical evidence. Complete internal routing graphs, private source linkages, privileged evidence lineage, credentials, confidential data, and protected machine contracts remain outside this repository.
 
-- coordination patterns and interface conventions / 協調模式與介面慣例
-- sanitized return and receipt examples / 去敏回包與回執範例
-- release-appropriate review methods / 適合發布的審查方法
-- bounded historical coordination evidence / 有限歷史協調證據
-
-The following are excluded from the public repository: complete internal routing graphs, private source linkages, privileged evidence lineage, credentials, customer or company confidential data, private communications, and machine contracts that would disclose protected implementation detail.
-
-公開倉不承載完整 internal routing graph、private source linkage、privileged evidence lineage、憑證、客戶或公司機密資料、私人通訊，以及會暴露受保護實作細節的 machine contract。
-
-## State semantics / 狀態語義
-
-A returned artifact is not considered reconciled merely because it exists in this repository. Likewise, a receipt confirms transport or observation only within its declared scope.
-
-回包出現在本倉不代表已完成 Reconciliation；Receipt 也只在其聲明範圍內證明傳遞或觀測成立。
-
-## Machine metadata / 機器中繼資料
-
-```yaml
-repository_class: public_coordination_carrier
-runtime: false
-central_authority: false
-native_body_embedded: false
-release_control: explicit
-semantic_alignment_required: true
-```
+公開面可包含去敏協調模式、介面慣例、有限範例、核准回執與適合發布的歷史證據；完整內部路由、私有來源關係、特權證據鏈、憑證、機密資料與受保護 machine contract 不進入本倉。
 
 ## Governing principle / 核心原則
 
-Coordination should move the minimum material required to preserve continuity, evidence, and re-entry while leaving identity, authority, and source ownership in their lawful native domains.
+Move the minimum material needed for continuity and re-entry. Identity, authority, source ownership, and native state stay in their lawful domains.
 
-協調層只移動維持連續性、證據與重入所需的最小 Material；Identity、Authority 與 Source Ownership 保留在各自合法 Native Domain。
+只移動維持連續性與重入所需的最小 Material；Identity、Authority、Source Ownership 與 Native State 留在合法權域。
