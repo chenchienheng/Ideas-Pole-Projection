@@ -1,145 +1,54 @@
 # XuanLing-10 Coordination / Return｜協調與回流
 
-**狀態 / Status：** public coordination-return projection／公開協調回流投影；candidate structural corpus／Candidate 結構語料；no runtime／無 Runtime；no central authority／非中央權威；no public-release approval implied／不因此取得公開發布核准。
+**狀態 / Status：** public coordination-return projection／公開協調回流投影；no Runtime／無 Runtime；no central authority／非中央權威；public-safe ≠ public-approved。
 
-## 一句話 / One-line
+## 中文／Owner View
+XL10 是公開的**協調與回流表面**。它讓不同 Native Sphere 交換必要的 handoff／return／receipt／review evidence，但不公開足以還原內部 Core 的完整 receiver graph、Authority routing、private evidence lineage 或 internal machine contract。
 
-XL10 是翾靈生態的 **handoff／return／receipt／audit／receiver-routing projection**：讓不同 Native Sphere 交換最小必要 Material，而不複製彼此完整 Native Body，也不建立第二 Truth。
+這個倉只承載可公開的協調模式與去敏／有限回流；任何客戶、公司、私人 Native Body 都必須留在合法 Native Domain。
 
-XL10 is the **handoff, return, receipt, audit, and receiver-routing projection** of XuanLing. It moves the smallest necessary material between native spheres without copying full native bodies or creating a second truth.
+## English／External View
+XL10 is a **public coordination and return surface**. It exposes release-safe handoff, return, receipt, and review patterns without disclosing the complete internal receiver graph, authority routing, private evidence lineage, or machine contracts that could reconstruct the internal core.
 
-```text
-Native Source / Native Body
-→ bounded Material Return
-→ Receiver-specific Projection
-→ authorized Action / Review
-→ Receipt
-→ Reconciliation
-→ Re-entry / Rebuild
+Private customer, company, personal, or native bodies remain in their lawful native domains.
+
+## Machine／Canonical Public Surface
+```yaml
+surface: public-coordination
+human_language: zh-TW
+external_language: en
+machine_form: canonical-minimal
+native_body_embedded: false
+release_state: public-safe|public-approved
 ```
 
-**Return stored here ≠ accepted ≠ reconciled ≠ Current ≠ public-approved ≠ executable.**
+## 固定規則 / Fixed rules
+- Return ≠ Reconciliation／回包不等於已調和。
+- Receipt ≠ Authority／回執不等於權限。
+- Dispatch ≠ Approval／派工不等於核准。
+- Public-safe ≠ Public-approved／公開安全不等於公開核准。
+- Bilingual ≠ Full Disclosure／雙語不等於完整揭露。
+- Machine-readable ≠ Public-readable／機器可讀不等於可公開。
+- Repository presence ≠ execution／倉庫存在不等於已施工。
 
-## 倉庫角色 / Repository role
+## 這裡可以公開什麼 / What may be public
+- public-safe handoff／return patterns
+- sanitized receipts／review patterns
+- bounded historical coordination evidence
+- release-safe examples and documentation
 
-可用於 / Use for：
+不公開完整 internal routing、private source linkage、credentials、company/customer data、personal messages 或可重建 Core 的 machine contract。
 
-- cross-sphere handoff／跨 Sphere 交接
-- receiver-specific return packets／接收者限定回包
-- receipt／last-seen marker／同步回執
-- audit／review projections／稽核與複核投影
-- bounded build／execution handoff evidence／有限施工交接證據
-- public-safe review patterns／公開安全審查模式
-- synchronization／re-entry pointers／同步與再進入指標
-- reusable historical coordination evidence／可重用歷史協調證據
+Do not publish complete internal routing, private source linkage, credentials, company/customer data, personal messages, or machine contracts that would reconstruct the core.
 
-不可當成 / Do not use as：
+## 三態對準 / Three-surface alignment
+同一 Stable Object 可有：繁中 Owner/Human Surface、英文 External/Public Surface、canonical-minimal Machine Surface；三者必須同義對準，不是三份 Truth。
 
-- DCP Foundation／不變核來源
-- central registry／universal Current store／中央 Registry 或全域 Current
-- another world's Native Source Root／其他世界的原始資料根
-- runtime agent／autonomous dispatcher／Runtime Agent 或自主派工者
-- customer／company／private data store／客戶、公司或私人資料倉
-- proof that a build ran／Build 已執行證明
-- proof that audit closed a matter／Audit 即 Closeout
-- proof that public-safe = public-approved／Public-safe 即 Public-approved
-
-## CoreTri 接收面 / Receiver-specific projections
-
-同一 Stable Object 依 Material Delta 投給真正受影響的 Receiver，不要求永久角色樹。
-
-One stable object sends bounded material only to affected receivers; no permanent role tree is required.
-
-- **Ideas**：Meaning / Experience / Navigation / Burden Delta
-- **DCP**：Dependency / State / Authority / Reconciliation / Rebuild Delta
-- **GLModel**：World / Engineering / Correspondence / Capability Delta
-- **LOR / identity-lineage function**：只有 Stable Identity、Successor、Pointer、Re-entry 真正改變時觸發
-- **QHA / rights-boundary function**：只有 Rights、Privacy、Retention、Release、Irreversible Action 真正 material 時觸發
-- **Hazumi / portable execution**：只有具名 bounded execution contract 才觸發
-- **Aki / independent audit**：需要獨立 readback／audit gate 才觸發
-
-Historical role names describe functions; they do not create permanent authority or registry.
-
-## 協調固定句 / Coordination rules
-
-- Return ≠ Reconciled／回包不等於已調和
-- Receipt ≠ Outcome／回執不等於結果
-- ACK ≠ Admission／ACK 不等於吸收
-- Dispatch ≠ Approval／派工不等於核准
-- Build Packet ≠ Runtime
-- Audit Note ≠ Closeout
-- Public-safe ≠ Public-approved
-- Tool Result ≠ Authority
-- Candidate Plan ≠ Final Decision
-- Message Sent ≠ Synchronization Complete
-
-同步至少保留 / Sync lineage should retain：
-
-```text
-Source revision
-→ affected Material Delta
-→ Receiver
-→ Receipt / Last-seen pointer
-→ Reconciliation state
-→ Re-entry trigger
-```
-
-Source revision 與 affected edge 未變，且 Receiver 已有等價 receipt → **REUSE / NO_REPROPAGATION**。
-
-If source revision and affected edge are unchanged and an equivalent receipt exists → **REUSE / NO_REPROPAGATION**.
-
-## Native Source 邊界 / Native-source boundary
-
-```text
-Native Source Root ≠ XuanLing
-Carrier ≠ Authority
-Projection ≠ Native Body
-```
-
-Drive、GitHub、Linear、Notion、Slack 或其他 Carrier 的資料權利仍屬其合法 Owner／Controller／Rights Holder。
-
-Drive, GitHub, Linear, Notion, Slack, and other carriers remain governed by their lawful owners/controllers/rights holders.
-
-Read access does not imply Copy／Derive／Learn／Retain／Write-back／Delete／Export／Release rights.
-
-## Placement／路徑 / Placement & path
-
-同一 Semantic Coordinate 內 rename／folder move，若 Stable Identity、Native Home、Authority、State、Return ownership、Re-entry／Rebuild relation 不變，XL10 只需要 placement receipt；不建立新的 coordination truth，也不要求 DCP rebuild。
-
-A rename/folder move inside the same semantic coordinate requires only a placement receipt when identity/home/authority/state/return/rebuild relations remain unchanged; it does not create a new coordination truth or DCP rebuild.
-
-## Fresh Reader 怎麼讀 / How to read
-
-1. 先判 artifact role：handoff／return／receipt／audit／build packet／historical evidence。 / Resolve artifact role first.
-2. 找 Native Source／Owner／Receiver。 / Resolve native source, owner, and receiver.
-3. 看 State／Claim Ceiling。 / Check state and claim ceiling.
-4. 優先 successor／absorbed-by／re-entry pointer，不靠舊 `CURRENT`／`READY`／workface／window label。 / Prefer explicit successor/re-entry pointers.
-5. 只讀 affected return slice，不從 coordination artifacts 重建另一 Sphere 的完整 Native Body。 / Read only the affected slice.
-
-## 人話 Return 最小格式 / Human-readable return minimum
-
-先回答 / Start with：
-
-1. 發生什麼？ / What happened?
-2. 真正改善或改變什麼？ / What actually changed or improved?
-3. 還卡什麼／未知什麼？ / What remains blocked or unknown?
-
-之後才附 Source／Revision／Hash、Affected Identity／Dependency、State／Authority／Claim Delta、Evidence／Failure、Receiver／Receipt、Reconciliation、Next Re-entry／Rebuild Trigger。
-
-Then include source/revision/hash, affected identity/dependency, state/authority/claim delta, evidence/failure, receiver/receipt, reconciliation, and next trigger.
-
-## 公私邊界 / Public-private boundary
-
-這是公開協調倉。不得放入 private customer data、company-confidential evidence、credentials、personal messages、private operational records 或未核准敏感 Native Body。
-
-This is a public coordination repository. Do not place private customer data, company-confidential evidence, credentials, personal messages, private operational records, or unapproved sensitive native bodies here.
-
-Sanitized / public-safe projection 仍是 Candidate，直到合法 Release Authority 核准。
-
-A sanitized/public-safe projection remains a candidate until lawful release authority approves it.
+The same Stable Object may have a Traditional-Chinese Owner/Human surface, an English External/Public surface, and a canonical-minimal Machine surface. They are aligned projections, not three truths.
 
 ## 最後規則 / Final rule
+XL10 的價值是讓**最小且可公開的正確 Material**在不同 Receiver 間流動並保留 Return Trail；它不是 Native Source Root，也不是 Internal Core Store。
 
-**XL10 的價值是讓最小且正確的 Material 在 Native Spheres 間移動，並保住 Return Trail；它是協調面，不是另一個 Source of Truth。**
+XL10 moves the smallest release-safe material between receivers and preserves the return trail. It is neither a native source root nor an internal core store.
 
-**XL10 moves the smallest correct material between native spheres and preserves the return trail. It is a coordination surface, not another source of truth.**
+See also: `PUBLIC-SURFACE-POLICY.md`.
