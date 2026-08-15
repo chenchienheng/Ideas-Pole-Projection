@@ -1,44 +1,64 @@
-# XuanLing-10 Coordination / Return
-# 協調與回流投影
+# Ideas Pole Projection / Ideas 極向投影
 
-**Repository class / 倉庫分類：** Public coordination carrier  
+**Repository class / 倉庫分類：** Public pole-oriented projection carrier  
 **Operational status / 運作狀態：** Non-production  
-**Authority model / 權限模型：** No central authority; no implicit promotion
+**Authority model / 權限模型：** Repository ≠ Pole Authority; no implicit runtime, promotion, or decision authority
+
+## Overview / 概述
+
+This repository is the Ideas-oriented GitHub projection of the CoreTri architecture. It is **not** the Ideas pole itself and does not replace Ideas Native Meaning / Placement / Experience authority.
+
+本倉是 CoreTri 三極架構在 GitHub 生態中的 **Ideas 極向投影面**；它不是 Ideas 極本體，也不取代 Ideas Native 的 Meaning／Placement／Experience Authority。
+
+Its emphasis is Meaning / Placement / Navigation / Experience / Human Assembly / Materiality. DCP and GLModel representations may appear here only as bounded supporting projections required to preserve the same Stable Existence and its return/rebuild relations.
+
+本倉偏重 Meaning／Placement／Navigation／Experience／Human Assembly／Materiality。DCP 與 GLModel 表徵只在維持同一 Stable Existence、依存關係與回流／重建所需時，以有界 supporting projection 出現。
+
+## Tri-pole architecture / 三極架構
+
+The three repositories do not divide CoreTri into three independent truths. All three use the same tri-pole architecture; each repository gives different weight to the same governed existence.
+
+三倉不是把 CoreTri 切成三份獨立 Truth，而是都使用同一套三極架構，針對同一 governed existence 給予不同投影重心。
+
+- **DCP-Pole-Projection** — dependency/state/authority/rebuild weighted.
+- **Ideas-Pole-Projection** — meaning/placement/navigation/experience weighted.
+- **GLModel-Pole-Projection** — world/object/engineering/evidence/adapter weighted.
+
+Cross-repository learning and return should travel through bounded pointer / receipt / receiver-state / reconciliation / re-entry / rebuild relations. Shared coordination is an interlock belt, not a fourth pole and not a common truth body.
+
+跨倉學習與回流以 bounded pointer／receipt／receiver-state／reconciliation／re-entry／rebuild relation 互鎖；Shared coordination 是鏈帶，不是第四極，也不是共同 Truth Body。
 
 ## Current reader entry / 現行讀取入口
 
-Start with `CURRENT-SURFACE-MANIFEST.json`. It identifies the current coordination surface and classifies retained root-layer families as Historical／Compatibility unless explicitly re-admitted.
+Start with `CURRENT-SURFACE-MANIFEST.json`. Legacy root-layer families remain Historical／Compatibility unless explicitly re-admitted. Folder, filename, recency, search hit, or return existence does not establish Current or reconciliation.
 
-請先讀 `CURRENT-SURFACE-MANIFEST.json`。它負責指出本倉現行協調表面；根目錄保留的早期 layer/runtime/orchestration 族群，在沒有具名 re-admission 前只作 Historical／Compatibility material，不因位置、檔名或修改時間恢復 Current。
+## Representation architecture / 三極語
 
-## Purpose / 目的
+- **Human zh-TW** — 原生人話、Meaning、Placement、Navigation、Friction、Experience。
+- **Professional / External English** — 專業互通與經核准的外部表達。
+- **Canonical Machine State** — Stable Identity、typed placement/relation、authority/evidence pointer、receiver state、return/rebuild relation。
 
-This repository carries the minimum release-appropriate material required for cross-domain handoff, return, receipt, review, reconciliation status, and re-entry. It preserves continuity without copying native bodies or creating a secondary source of truth.
-
-本倉只承載跨域 Handoff、Return、Receipt、Review、Reconciliation Status 與 Re-entry 所需的最小公開材料；它維持連續性，但不複製 Native Body，也不建立第二個 Truth Source。
-
-## Representation profiles / 表徵層級
-
-- **Human / 人類層：** 繁體中文優先，說明狀態、影響、證據與下一步。
-- **External / 外部層：** 英文用於經核准的互通與公開技術表達。
-- **Machine / 機器層：** Stable IDs、typed state、receiver、evidence pointer、reconciliation status、re-entry condition。
-
-三者描述同一協調事件，但不是逐句翻譯；State、Authority、Claim Ceiling、Receiver 與 Release Classification 必須一致。
-
-## Coordination semantics / 協調語義
-
-A return is not reconciliation. A receipt proves only its declared transport or observation scope. Repository presence does not establish Current, Runtime, Authority, or Promotion.
-
-Return 不等於 Reconciliation；Receipt 只證明其聲明範圍內的傳遞或觀測。本倉出現某項內容，也不自動建立 Current、Runtime、Authority 或 Promotion。
+These profiles describe one governed existence; they are not sentence-by-sentence translations.
 
 ## Public boundary / 公開邊界
 
-Public material may include sanitized coordination patterns, interface conventions, bounded examples, approved receipts, and release-appropriate historical evidence. Complete internal routing graphs, private source linkages, privileged evidence lineage, credentials, confidential data, and protected machine contracts remain outside this repository.
+Public placement does not make Personal / Company / Project material public-approved or copyable. Rights, Privacy, Purpose, Evidence, Retention and Release gates remain effective. This repository carries projection material, not ownership of other native domains.
 
-公開面可包含去敏協調模式、介面慣例、有限範例、核准回執與適合發布的歷史證據；完整內部路由、私有來源關係、特權證據鏈、憑證、機密資料與受保護 machine contract 不進入本倉。
+公開位置不代表 Personal／Company／Project Material 已 public-approved 或可任意複製；Rights／Privacy／Purpose／Evidence／Retention／Release Gate 仍有效。本倉只承載投影，不取得其他 Native Domain 的所有權。
 
-## Governing principle / 核心原則
+## Machine metadata / 機器中繼資料
 
-Move the minimum material needed for continuity and re-entry. Identity, authority, source ownership, and native state stay in their lawful domains.
-
-只移動維持連續性與重入所需的最小 Material；Identity、Authority、Source Ownership 與 Native State 留在合法權域。
+```yaml
+repository_class: public_pole_projection_carrier
+projection_focus: Ideas
+repo_is_pole_authority: false
+runtime: false
+native_source_root: false
+tri_pole_architecture: true
+shared_belt_role: pointer_receipt_receiver_state_return_reconcile_rebuild
+representation_profiles:
+  human: zh-TW
+  professional: en
+  machine: canonical
+release_control: explicit
+```
