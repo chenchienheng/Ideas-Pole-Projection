@@ -1,51 +1,19 @@
-# Gate 64 Binding Note
+# Gate 64 Binding Note — Historical Lineage
 
-> Durable note for mapping the 64-gate transition logic to the XLEN / Xuanling runtime.
-> This does not instantiate all 64 gates immediately, but reserves the structural binding space.
+**Lifecycle:** HISTORICAL_LINEAGE_ONLY  
+**Ideas Current effect:** none  
+**Normal Reader:** false
 
----
+This file records an early fixed `64 Gate × 12 Window × coupling-face` representation with `return_to_00=true`. That structure is not a Current Ideas operating map and does not reserve future Gate identities.
 
-## 0. Note Status
+## Retained learning
 
-- note_version: v0.1
-- purpose: persist transition and gating logic
-- scope: upper-order logic integration
-- return_to_00: true
+The predecessor exposed one useful distinction: a transition needs explicit entry condition, transform/action meaning, and exit condition. That primitive remains useful when Meaning / Identity / Placement changes across states.
 
----
+Ideas does not own system Gate admission. Dependency, constraint, authority, action-effect and transition gating remain DCP responsibility when materially affected.
 
-## 1. Core Concept
+## Re-entry
 
-The 64-gate framework provides a bounded matrix for transitions between the 12 windows and 3 coupling faces.
+Read only for lineage, failure analysis, or bounded cross-pole semantic comparison. Do not reconstruct numbered Gates, fixed windows, or a return-to-00 route from this file.
 
-A Gate defines:
-1. **Entry condition** (what state must exist before transition)
-2. **Transform rule** (what happens during transition)
-3. **Exit condition** (where the output lands)
-
----
-
-## 2. Provisional Mapping
-
-| Gate Range | Primary Coupling Focus | Related Windows |
-|---|---|---|
-| 01 - 16 | Bone Coupling | `01`, `05`, `11` |
-| 17 - 48 | Event Coupling | `02`, `03`, `04`, `06`, `09`, `10` |
-| 49 - 64 | Writeback Coupling | `07`, `08`, `12` |
-
-*(This is an illustrative mapping; full 64-gate enumeration will follow in a subsequent phase).*
-
----
-
-## 3. Current Discontinuity Resolution
-
-The creation of this artifact addresses discontinuity **D-008**.
-The transition/gating logic is now bound to a persistent artifact rather than remaining purely concept-heavy.
-
----
-
-## 4. Status
-
-- gate_64_binding_note_created: true
-- full_gate_enumeration: pending
-- return_to_00: true
+Full predecessor content remains recoverable in Git history.
