@@ -1,65 +1,41 @@
-# Model to Window Ownership Map
+# Model-to-Window Ownership Map — Historical Failure Memory
 
-> Durable mapping between model families and runtime windows.
-> Purpose: prevent model usage from floating outside the 12-window runtime frame.
+**Lifecycle:** HISTORICAL_LINEAGE_ONLY  
+**Normal Reader:** false  
+**Current routing / ownership effect:** none
 
----
+This file records a first-generation attempt to stabilize model behavior by assigning model families to permanent runtime windows and requiring each invocation to declare an `owner_window`.
 
-## 0. Core Reading
+That rule is superseded. Model, provider, agent, tool, chat, work surface, repository, or window does not own a capability merely by name or placement.
 
-Model families must not operate without window ownership.
-This map defines preferred bindings so:
-- roles are stabilized
-- drift is reduced
-- scheduling can attach correctly
-- writeback becomes consistent
+## Retained learning
 
----
+The predecessor attempted to reduce drift by fixing model-to-window bindings. It helped reveal the real requirements that should be preserved without permanent ownership:
 
-## 1. Mapping Table
+- capability fit;
+- scope and affected responsibility;
+- authority / rights;
+- resource and disclosure boundary;
+- evidence and return target;
+- mismatch detection and re-resolution.
 
-| Model Family | Primary Windows | Secondary Windows | Role Bias |
-|---|---|---|---|
-| reasoning | `05`, `11`, `00` | `03` | analysis / comparison / chain reading |
-| drafting | `01`, `07`, `12` | `02` | articulation / external expression |
-| audit | `00`, `08`, `11` | `05` | contradiction / verification |
-| extraction | `02`, `03`, `08` | `01` | field extraction / grouping |
-| synthesis | `11`, `05`, `00` | `07` | integration / folding |
-| interface_dialogue | `02`, `07` | `03` | intake / clarification |
-| vision_multimodal | `02`, `07`, `12` | `11` | visual interpretation |
-| domain_specialized | varies | varies | domain-bound operations |
+## Current successor
 
----
+```text
+Need
+→ Stable Identity / affected slice
+→ required Capability
+→ eligible Provider / Actor / Carrier
+→ Authority / Rights / Disclosure / Resource Gate
+→ action or HOLD
+→ Evidence / Return
+→ Receiver / Rebuild / Exit
+```
 
-## 2. Binding Rule
+Provider substitution is lawful when the required capability and all applicable gates are preserved. No fixed ChatGPT, Codex, Jules, Gemini, model-family, or numbered-window lane is implied.
 
-Each invocation must:
-- declare its owner_window
-- match the family-window compatibility
-- escalate if mismatch occurs
+## Regression trigger
 
----
+If a normal workflow again requires a model to belong permanently to a named window, or treats the model/window name as ownership or authority, classify that as predecessor resurrection.
 
-## 3. Mismatch Rule
-
-If model family and window are misaligned:
-- mark mismatch_or_gap
-- reassign window OR change role
-- do not silently proceed
-
----
-
-## 4. Scheduling Implication
-
-This mapping directly supports:
-- `SCHEDULING_EFFECT_REGISTER.md`
-- window-based cadence activation
-
----
-
-## 5. Status
-
-- model_window_map_created: true
-- drift_reduction_binding_started: true
-- scheduling_alignment_enabled: true
-- return_to_00: true
+Full predecessor mapping remains recoverable through Git history for audit and regression only.
