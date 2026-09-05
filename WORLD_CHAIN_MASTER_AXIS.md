@@ -1,51 +1,25 @@
-# World Chain Master Layer
+# World Chain Master Axis — Historical Projection / Retained Primitive
 
-> CoreTri Axis-01: The World Chain
-> This document defines the minimal operating rules for the external environment
-> and ecosystem absorption within the DCP Framework.
+**Lifecycle:** HISTORICAL_LINEAGE_ONLY  
+**Normal Reader:** false  
+**Current authority / routing effect:** none
 
----
+This predecessor described a `World Chain` as a master axis controlling external models, platforms, tools, public reflection, review hooks, and return routing. It also carried `return_to_00=true`.
 
-## 1. Definition
+That master-axis reading is superseded.
 
-The **World Chain** governs the outer boundaries of the system.
-It is the Master Axis responsible for absorbing external models, platforms, and
-tool chains.
+## Retained Ideas-side learning
 
-It enforces the rule that external entities are mapped as replaceable nodes
-rather than sovereign centers.
+Useful meaning remains:
+- external carriers and providers are replaceable projections, not sovereign centers;
+- no external platform gains Stable Identity or Authority merely by carrying state;
+- public/external representation must preserve source meaning and lineage;
+- external material should be interpreted before it changes Reader placement or navigation.
 
-## 2. Rules
+World / object / spatial / reality admission belongs to GLModel when materially affected. Dependency / authority / action-effect belongs to DCP. Ideas retains Meaning / Identity / Placement / Reader / Lineage responsibility only.
 
-- **Absorption without Expansion:** Ecosystems must be structurally mapped
-  (e.g., via `04_adapter-layer` schemas) before any tool integration.
-- **Anti-Capture Continuity:** No single external tool or platform may hold
-  absolute state authority over the core repository bone.
-- **Public Surfaces Reflection:** The World Chain controls how the repository
-  state is reflected outward to external boards or readable layers.
+## Re-entry
 
-## 3. Dispatch Binding
+Use for historical comparison or anti-capture regression. Do not restore AXIS numbering, central review hooks, predefined writeback routes, or `00` return semantics.
 
-- entry condition: Bound to Primary Axis (AXIS-01).
-- dispatch priority: Core framework structural integrity supersedes external
-  exploratory branches.
-- review hook: Review Chain Master Layer (AXIS-05).
-- return path: Writeback packets or schema adapters.
-- failure route: return_failed -> AXIS-05
-- register surface: UNIFIED_ARTIFACT_REGISTER.md
-
-## 4. Status
-
-- master_axis_created: true
-- axis_number: 01
-- mapped_issues: #16
-- return_to_00: true
-
-## 4. Dispatch Binding
-
-- entry condition: Validated via structural maps before absorption.
-- dispatch priority: Subordinate to internal structure and human chains.
-- review hook: Required before structural integration.
-- return path: Must return via predefined schema adapters.
-- failure route: return_failed -> AXIS-05
-- register surface: UNIFIED_ARTIFACT_REGISTER.md
+Full predecessor body remains recoverable through Git history.
