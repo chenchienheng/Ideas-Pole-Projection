@@ -1,93 +1,37 @@
-# External Node On-Chain Specification
+# External Node Relation Spec — Carrier-Neutral Successor
 
-> Durable specification for onboarding external ecosystem nodes into the XLEN / Xuanling runtime.
-> Purpose: ensure external tools, platforms, and services become chain-bound nodes instead of uncontrolled dependencies.
+**Lifecycle:** ACTIVE_SUCCESSOR_CANDIDATE  
+**Ideas scope:** Meaning / Identity / Placement / Reader / Lineage only  
+**Runtime / Authority:** false
 
----
+This file supersedes the first-generation `External Node On-Chain` rule that required an `owner_window`, fixed writeback surface, and `return_to_00=true`.
 
-## 0. Core Reading
+## Current relation model
 
-External nodes should not be treated as:
-- isolated tools
-- uncontrolled dependencies
-- opaque black-box integrations
+An external model, tool, repository, cloud, SaaS, skill, chat, work surface, or provider is a Carrier / Capability projection unless independently proven otherwise.
 
-They should be treated as:
-- role-bound nodes
-- replaceable ecosystem members
-- chain-aware execution surfaces
+A bounded relation should resolve only what the Need requires:
 
----
+- `StableReferent`
+- `Need / Purpose`
+- `CapabilityRole`
+- `Carrier / Provider identity`
+- `AffectedSlice`
+- `Source / Evidence`
+- `Disclosure boundary`
+- `Authority / Rights` when action is involved
+- `Receiver / Return target`
+- `Failure / substitution condition`
+- `Successor / Exit` when lifecycle-relevant
 
-## 1. On-Chain Conditions for External Nodes
+No `owner_window` is required. Carrier placement does not grant Identity, Current, Judgment, Authority, or permanent routing.
 
-An external node is considered on-chain only when:
+## Anti-capture / substitution
 
-1. **role is defined**
-2. **owner_window is assigned**
-3. **input/output is bounded**
-4. **writeback path exists**
-5. **replacement is possible**
+A relation is unhealthy when a carrier becomes irreplaceable because unique state, caller dependency, authority, or return debt cannot move or rebuild. Provider substitution is allowed only when meaning, evidence, authority ceiling, disclosure, and receiver obligations remain intact.
 
----
+## Ideas admission
 
-## 2. Node Record Schema
+Ideas may disposition external-node Meaning, Identity, Placement, Reader eligibility, Navigation, Lineage, and Successor semantics. Dependency / Gate / Authority belongs to DCP; World / Object / Reality / Geometry belongs to GLModel when materially affected.
 
-Each node should include:
-
-- `node_name`
-- `family_type`
-- `owner_window`
-- `structural_role`
-- `input_type`
-- `output_type`
-- `writeback_surface`
-- `replacement_ready`
-- `failure_mode`
-- `last_verified_time`
-
----
-
-## 3. Failure Mode Rule
-
-Each node must define:
-- what happens when it fails
-- fallback path
-- alternative node
-
----
-
-## 4. Anti-Dependency Rule
-
-A node is unsafe if:
-- it becomes irreplaceable
-- it holds critical state without writeback
-- it controls routing without visibility
-
----
-
-## 5. Current Priority Nodes
-
-| Node | Family | Role | Status |
-|---|---|---|---|
-| GitHub | repository/writeback | bone + writeback anchor | stable |
-| Gmail | communication/intake | event intake | partial |
-| Google Drive | carrying mesh | storage + draft | early |
-| workflow tools | board/orchestration | routing support | early |
-
----
-
-## 6. Next Expansion
-
-- calendar/time nodes
-- public web nodes
-- multi-model nodes
-
----
-
-## 7. Status
-
-- external_node_onchain_spec_created: true
-- node_role_binding_defined: true
-- dependency_control_started: true
-- return_to_00: true
+`Connected != Integrated | Readable != Authorized | Capability Available != Action Authorized | Representation != Identity`

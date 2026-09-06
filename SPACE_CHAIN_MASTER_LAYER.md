@@ -1,28 +1,24 @@
-# Space Chain Master Layer
+# Placement / Navigation Lineage — Ideas Successor Candidate
 
-> CoreTri Axis: Spatial positioning layer for the framework.
+**Lifecycle:** ACTIVE_SUCCESSOR_CANDIDATE  
+**Ideas scope:** Meaning / Identity / Placement / Reader / Navigation / Lineage  
+**Runtime / Authority:** false
 
-## 0. Purpose
+This file supersedes the first-generation `Space Chain Master Layer` reading that mixed repository topology, windows, boards, and world-space into one axis and returned it to `00`.
 
-Define topology, window, board, family and structural positioning.
+## Current Ideas reading
 
-## 1. Scope
+Ideas may reason about where a meaning-bearing artifact or referent belongs in an information/navigation structure:
+- StableReferent
+- semantic placement
+- reader eligibility
+- navigation relation
+- predecessor / successor relation
+- historical lineage placement
+- ambiguity or naming conflict
 
-- corpus index
-- topology
-- window map
-- family structure
+This is **not** physical/world geometry and does not establish runtime routing, ownership, authority, or a permanent window.
 
-## 2. Linked execution
+`Information placement != World location | Navigation != Routing authority | Historical placement != Current`
 
-- #1 corpus reindex
-- naming normalization
-
-## 3. Rule
-
-All artifacts must have a spatial position.
-
-## 4. Status
-
-- master_axis_created: true
-- return_to_00: true
+When physical space, host, location, geometry, occurrence, or reconstruction is materially affected, the affected slice belongs to GLModel.
