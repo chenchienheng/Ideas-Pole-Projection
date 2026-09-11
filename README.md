@@ -32,6 +32,10 @@ Cross-repository learning and return should travel through bounded pointer / rec
 
 Start with `CURRENT-SURFACE-MANIFEST.json`. Legacy root-layer families remain Historical／Compatibility unless explicitly re-admitted. Folder, filename, recency, search hit, or return existence does not establish Current or reconciliation.
 
+`STATUS.md` records this repository's carrier/projection status; it does not establish runtime or Native authority. Use this README and `CURRENT-SURFACE-MANIFEST.json` for the public projection boundary. A candidate branch remains subject to its own review and merge decision.
+
+`STATUS.md` 記錄本倉載體／投影狀態，不能據此認定 Runtime 或 Ideas Native 權限；公開投影邊界依本 README 與 `CURRENT-SURFACE-MANIFEST.json` 判讀。候選分支仍須依自身範圍審查與核准合併。
+
 ## Representation architecture / 三極語
 
 - **Human zh-TW** — 原生人話、Meaning、Placement、Navigation、Friction、Experience。
