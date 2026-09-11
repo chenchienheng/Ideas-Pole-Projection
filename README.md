@@ -32,9 +32,9 @@ Cross-repository learning and return should travel through bounded pointer / rec
 
 Start with `CURRENT-SURFACE-MANIFEST.json`. Legacy root-layer families remain Historical／Compatibility unless explicitly re-admitted. Folder, filename, recency, search hit, or return existence does not establish Current or reconciliation.
 
-`STATUS.md` retains historical DCP/M2 descriptions; it does not establish current runtime or this repository's Native identity. Use this README and `CURRENT-SURFACE-MANIFEST.json` for the current public projection boundary. [PR #7](https://github.com/chenchienheng/Ideas-Pole-Projection/pull/7) contains the existing status correction within a broader integration candidate and has not been merged into `main`.
+`STATUS.md` records this repository's carrier/projection status; it does not establish runtime or Native authority. Use this README and `CURRENT-SURFACE-MANIFEST.json` for the public projection boundary. A candidate branch remains subject to its own review and merge decision.
 
-`STATUS.md` 保留歷史 DCP／M2 描述，不能據此認定本倉現行 Runtime 或 Ideas Native 身分；現行公開投影邊界依本 README 與 `CURRENT-SURFACE-MANIFEST.json` 判讀。[PR #7](https://github.com/chenchienheng/Ideas-Pole-Projection/pull/7) 已包含狀態修正，仍屬較大範圍的整合候選，尚未合併至 `main`。
+`STATUS.md` 記錄本倉載體／投影狀態，不能據此認定 Runtime 或 Ideas Native 權限；公開投影邊界依本 README 與 `CURRENT-SURFACE-MANIFEST.json` 判讀。候選分支仍須依自身範圍審查與核准合併。
 
 ## Representation architecture / 三極語
 

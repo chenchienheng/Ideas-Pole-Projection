@@ -1,45 +1,26 @@
-# Time Chain Master Layer
+# Time Chain Master Layer — Historical Failure Memory
 
-> Core triad axis for time chain governance.
-> Establishes the full-time chain governing scheduling, pulse, snapshot,
-> and replay.
+**Lifecycle:** HISTORICAL_LINEAGE_ONLY  
+**Normal Reader:** false  
+**Current scheduling / routing effect:** none
 
-## 1. Rule
+This predecessor treated time as a fixed runtime control layer tied to numbered windows, recurring pulse cadences, Jules task bindings, and `return_to_00=true`.
 
-All runtime activation must bind to the time chain.
+That operating topology is superseded.
 
-## 2. Scope Integration
+## Retained learning
 
-### 2.1 Scheduler Topology
+Time still matters for Meaning and historical metabolism through:
+- temporal placement and lineage;
+- revision ordering;
+- predecessor / successor interpretation;
+- Reader relevance over time;
+- re-entry conditions when a material event occurs.
 
-Defines the current mapping between external semantic nodes and internal runtime
-windows, resolving legacy daily reporting into stable cadences.
-*Ref: PLATFORM_SCHEDULER_AND_TOOL_NAMING_MAP.md*
+A named cadence, pulse, schedule, or historical window does not by itself create Current, Wake, Authority, or an obligation to keep a surface alive.
 
-### 2.2 `02_CVG_3D` Pulse
+## Current interpretation
 
-The primary convergence rhythm for the ecosystem, absorbing daily and hybrid
-reviews into a stable 3-day window.
-*Ref: SCHEDULING_EFFECT_REGISTER.md, WINDOW_12_MASTER_TABLE.md*
+Time is an overlay on Stable Identity and affected material relations, not a permanent routing skeleton. Scheduling is Need-born and belongs to the affected capability / authority path when materially required.
 
-### 2.3 Snapshot Mechanism
-
-Provides a minimal verifiable snapshot structure binding active state, changed
-fields, risks, and next pulse.
-*Ref: SNAPSHOT_MECHANISM_PROPOSAL.md*
-
-### 2.4 Replay Readiness
-
-Audits the reconstructability of the ecosystem state across PR history, tracking
-registers, and historical directory states.
-*Ref: REPLAY_READINESS_REPORT.md*
-
-## 3. Linked Execution
-
-- [Jules] Scheduler Topology Reconciliation to Platform Map #6
-- [Jules] First standardized task packet run #9
-
-## 4. Status
-
-- master_axis_created: true
-- return_to_00: true
+Full predecessor body remains in Git history for audit and regression.
