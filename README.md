@@ -36,6 +36,16 @@ Start with `CURRENT-SURFACE-MANIFEST.json`. Legacy root-layer families remain Hi
 
 `STATUS.md` 保留歷史 DCP／M2 描述，不能據此認定本倉現行 Runtime 或 Ideas Native 身分；現行公開投影邊界依本 README 與 `CURRENT-SURFACE-MANIFEST.json` 判讀。[PR #7](https://github.com/chenchienheng/Ideas-Pole-Projection/pull/7) 已包含狀態修正，仍屬較大範圍的整合候選，尚未合併至 `main`。
 
+## Continuity and replaceable carriers / 連續性與可替換載體
+
+Repository, model, tool, and storage locations are **replaceable carriers**, not permanent placement or meaning topology. Meaning / Placement / Navigation / Experience continuity depends on preserving the Stable Existence and re-qualifying Current-for-purpose, reader eligibility, Authority, evidence and return/rebuild relations when a carrier changes.
+
+Repository、模型、工具與儲存位置都是**可替換載體**，不是永久的 Placement 或 Meaning 拓撲。Meaning／Placement／Navigation／Experience 的連續性，取決於 Stable Existence 能否保留，以及載體改變時 Current-for-purpose、Reader Eligibility、Authority、Evidence 與 Return／Rebuild 關係能否重新資格化。
+
+A copied pointer, newer timestamp, delivered artifact or readable history does not establish placement, reconciliation or use. Ideas-oriented maturity is measured by whether meaning and placement can be lawfully rediscovered and resumed without turning historical or carrier-local context into Current.
+
+複製的 Pointer、較新 Timestamp、已送達 Artifact 或可讀歷史，都不能建立 Placement、Reconciliation 或 Use。Ideas 極向的成熟度，以 Meaning 與 Placement 能否合法重新找到並接續，且不把 Historical 或 Carrier-local Context 升成 Current 來衡量。
+
 ## Representation architecture / 三極語
 
 - **Human zh-TW** — 原生人話、Meaning、Placement、Navigation、Friction、Experience。
