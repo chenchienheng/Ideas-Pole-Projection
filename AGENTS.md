@@ -39,6 +39,12 @@ Agents must not:
 - GitHub is the repository revision/evidence carrier and pull-request gate; it is not the Native Source Root or Architecture Authority.
 - User: final approval and merge authority.
 
+## Code Review Rules
+
+- Report consequential defects introduced by the diff, with the affected file and concrete consequence. Distinguish a broken contract from a wording suggestion or preference; do not invent line numbers or treat an undefined term alone as a defect.
+- For changes that claim Current placement or adoption, flag missing source/revision, applicable scope, successor/re-entry or receiver disposition. A copied pointer, recent timestamp or delivered artifact is not receiver use; keep historical lineage and distinguish discovery from authorization.
+- Keep review findings within the selected task's authority and evidence. Propose the smallest safe correction; do not infer merge, cross-domain write or external-action permission from capability. These rules supplement required checks and approvals, not replace them.
+
 ## Review Gates
 
 Before editing, resolve the repository full name, selected ref, actual HEAD, and named environment when one is used. For PR work, resolve the repository's current base ref separately from the PR's recorded base SHA; a recorded base SHA can lag the current branch.
