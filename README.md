@@ -30,11 +30,13 @@ Cross-repository learning and return should travel through bounded pointer / rec
 
 ## Current reader entry / 現行讀取入口
 
-Start with `CURRENT-SURFACE-MANIFEST.json`. Legacy root-layer families remain Historical／Compatibility unless explicitly re-admitted. Folder, filename, recency, search hit, or return existence does not establish Current or reconciliation.
+Use this README for human orientation, then resolve Current-for-purpose from `CURRENT-SURFACE-MANIFEST.json`. Legacy root-layer families remain Historical／Compatibility unless explicitly re-admitted. Folder, filename, recency, search hit, return existence or readable history does not establish Current or reconciliation.
 
-`STATUS.md` retains historical DCP/M2 descriptions; it does not establish current runtime or this repository's Native identity. Use this README and `CURRENT-SURFACE-MANIFEST.json` for the current public projection boundary. [PR #7](https://github.com/chenchienheng/Ideas-Pole-Projection/pull/7) contains the existing status correction within a broader integration candidate and has not been merged into `main`.
+本 README 提供人類入口與倉庫定位；Current-for-purpose 請由 `CURRENT-SURFACE-MANIFEST.json` 解析。舊 root-layer family 在未具名 re-admission 前只作 Historical／Compatibility；Folder、Filename、Recency、Search Hit、Return Existence 或可讀歷史都不能建立 Current 或 Reconciliation。
 
-`STATUS.md` 保留歷史 DCP／M2 描述，不能據此認定本倉現行 Runtime 或 Ideas Native 身分；現行公開投影邊界依本 README 與 `CURRENT-SURFACE-MANIFEST.json` 判讀。[PR #7](https://github.com/chenchienheng/Ideas-Pole-Projection/pull/7) 已包含狀態修正，仍屬較大範圍的整合候選，尚未合併至 `main`。
+`STATUS.md` is a compatibility/status page and does not establish Runtime, Native identity, Meaning or Placement Authority. Current public projection boundaries are defined by this README plus `CURRENT-SURFACE-MANIFEST.json`.
+
+`STATUS.md` 是相容／狀態頁，不建立 Runtime、Native Identity、Meaning 或 Placement Authority；現行公開投影邊界以本 README 與 `CURRENT-SURFACE-MANIFEST.json` 為準。
 
 ## Continuity and replaceable carriers / 連續性與可替換載體
 
