@@ -1,5 +1,9 @@
 # Source Map
 
+> **Historical / Compatibility only — 歷史／相容參考。**
+> 下文的 `Status: active`、`Platform Writer: ChatGPT` 與來源路由只保留當時語境，不代表現行 writer 指派、權限或來源真實性。請先依 [CURRENT-SURFACE-MANIFEST.json](../CURRENT-SURFACE-MANIFEST.json) 判定當前用途；本檔未因此重新納入 Current。
+> The status, writer and routing statements below are historical, not current assignments or authority. Resolve Current-for-purpose through the manifest before reuse.
+
 Department: Adapter Layer
 Agent Block: Source Routing
 Node ID: ADP-005
